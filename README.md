@@ -191,7 +191,7 @@ hist (rchisq(r, x),
 menggunakan fungsi hist untuk membuat tabel histogram dengan:
 - `r` sebagai batas data random (100)
 - `rchisq(r, x)` digunakan untuk membuat deviasi random
-- `main='Chi-Square Distribution (r=100, x=10)'`  untuk menuliskan judul grafik 
+- `main='Chi-Square Distribution (r=100, x=10)'`  untuk menuliskan judul grafik <br/>
 Hasil dari inisialisasi variabel: <br/>
 ![p1 histogram Chi Square no 4](https://user-images.githubusercontent.com/78362238/162623106-a247b8a0-9017-459d-8205-04aa37e84f42.png)
 ### soal 4c
