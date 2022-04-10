@@ -179,7 +179,7 @@ Fungsi Probabilitas dari Distribusi Chi-Square dicapai menggunakan `dchisq ()` d
 ```r
 #a (fungsi probabilitas distribusi Chi-Square)
 dchisq (v, x)
-hasil = [1] 0.007664155
+#hasil = [1] 0.007664155
 ```
 ### soal 4b
 ```r
