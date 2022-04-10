@@ -33,16 +33,16 @@ Perbedaan tidak jauh beda, dengan beda sebesar 0.0033, dapat disimpulkan bahwa b
 ```
 ### Soal 1d
 ```r
-x_dgeom <- seq(0, 10000, by = x)
-y_dgeom <- dgeom(x_dgeom, prob = p)
-plot(y_dgeom)
+#d
+hist(rgeom(n = 10000, p),
+     main='Geometric Distribution (n=10000, p=0.20)')
 ```
-Menggunakan fungsi plot, untuk membuat tabel histogram dengan:
-- `x_dgeom` untuk menuliskan data random (0 - 10000) dan distribusi geometri acak `x`
-- `y_dgeom` untuk menggabungkan `x_dgeom` dengan probabilitas `p`
-- `plot(y_dgeom)` menyajikan hasil lewat tabel histogram <br/>
+Menggunakan fungsi hist untuk membuat tabel histogram dengan:
+- `rgeom(n = 10000, p)` digunakan untuk membuat deviasi random
+- `main='Geometric Distribution (n=10000, p=0.20)'` untuk menuliskan judul grafik  
+
 Hasil grafik: <br/>
-![p1_histogram geometrik no 1](https://user-images.githubusercontent.com/78362238/162614917-ddb9a68f-b6a2-4127-b40d-88050fc14088.png)
+![p1 histogram geometrik bener no 1](https://user-images.githubusercontent.com/78362238/162623579-4a254b2f-61a9-44e1-a518-7d887c7cdc44.png)
 ### Soal 1e
 ```r
 #e (rataan dan varian)
@@ -50,6 +50,8 @@ Hasil grafik: <br/>
 1 / p
 #>varian
 (1 - p) / p^2
+#hasil rataan = [1] 5
+#hasil varian = [1] 20
 ```
 Rumus dari:
 - Rataan atau mean dari distribusi geometrik = 1 / p = 1 / 0.2 = 5
@@ -185,8 +187,6 @@ menggunakan fungsi hist untuk membuat tabel histogram dengan:
 Hasil dari inisialisasi variabel: <br/>
 ![p1 histogram Chi Square no 4](https://user-images.githubusercontent.com/78362238/162623106-a247b8a0-9017-459d-8205-04aa37e84f42.png)
 ### soal 4c
-rataan atau mean distribusi Chi-Square adalah degree of freedom, atau v = 2
-varian distribusi Chi-Square adalah v * 2 = 2 * 2 = 4
 ```r
 #c (rataan dan varian)
 #>Rataan
@@ -197,6 +197,10 @@ print (rataan)
 #hasil rataan = [1] 2
 #hasil varian = [1] 4
 ```
+Rumus dari:
+- rataan atau mean distribusi Chi-Square adalah degree of freedom, atau v = 2
+- varian distribusi Chi-Square adalah v * 2 = 2 * 2 = 4
+
 
 ## Soal 5<br/>
 ## Soal 6<br/>
