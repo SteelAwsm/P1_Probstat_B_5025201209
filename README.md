@@ -8,7 +8,7 @@ n = 20
 p = 0.2
 success <- 0:20
 ```
-Hasil dari inisialisasi variabel:
+Hasil dari inisialisasi variabel: <br/>
 ![variabel no 2](https://user-images.githubusercontent.com/78362238/162608873-77aeb30f-7c37-4093-bbf3-efe02d74d15c.jpeg)
 <br/>
 ### Soal 2a
@@ -33,8 +33,8 @@ Menggunakan fungsi plot, untuk membuat tabel histogram dengan:
 - `main='Binomial Distribution (n=20, p=0.3)'` untuk menuliskan judul grafik
 - `ylab` untuk menuliskan nama di bagian vertikal grafik sebagai "probabilitas"
 - `xlab` untuk menuliskan nama di bagian horizontal grafik sebagai "Jumlah Sukses"
-- `lwd=2` untuk menebalkan garis di dalam grafik
-Hasil grafik:
+- `lwd=2` untuk menebalkan garis di dalam grafik <br/>
+Hasil grafik: <br/>
 ![p1_histogram binomial no 2](https://user-images.githubusercontent.com/78362238/162609759-c9708c9c-5b5f-45c1-839f-1f42d4253c66.png)
 ### Soal 2c
 ```r
