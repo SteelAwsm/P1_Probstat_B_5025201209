@@ -133,12 +133,12 @@ mean(rpois(n, lambda) == 6)
 #hasil = [1] 0.1342466
 ```
 menggunakan fungsi hist untuk membuat tabel histogram dengan:
-- `i` distribusi poisson
+- `i` sebagai distribusi poisson
 - `main`  untuk menuliskan judul grafik
 - `xlab` untuk menuliskan nama di bagian horizontal grafik sebagai "kelahiran 6 bayi akan lahir di rumah sakit" 
 Hasil grafik: <br/>
 ![p1_histogram poisson no 3](https://user-images.githubusercontent.com/78362238/162619414-d7ba1e09-dd27-4282-ba36-41e3a5e84ee0.png)
-##soal 3c
+## soal 3c
 Hasilnya tidak jauh beda, yaitu sebesar 0.0061265, menandakan jika x dan lambda sama, hasil tidak jauh berbeda walaupun ada periode (n = 365) maupun tidak ada periode
 ```r
 #c 
@@ -146,7 +146,7 @@ Hasilnya tidak jauh beda, yaitu sebesar 0.0061265, menandakan jika x dan lambda 
 #menandakan jika x dan lambda sama, hasil tidak
 #jauh berbeda walaupun ada periode (n = 365) maupun tidak ada periode
 ```
-##soal 3d
+## soal 3d
 rataan atau mean distribusi poisson adalah Lambda = 4.5 <br/>
 varians distribusi poisson adalah Lambda = 4.5 
 ```r
