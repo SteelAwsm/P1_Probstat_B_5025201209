@@ -138,7 +138,7 @@ menggunakan fungsi hist untuk membuat tabel histogram dengan:
 - `xlab` untuk menuliskan nama di bagian horizontal grafik sebagai "kelahiran 6 bayi akan lahir di rumah sakit" 
 Hasil grafik: <br/>
 ![p1_histogram poisson no 3](https://user-images.githubusercontent.com/78362238/162619414-d7ba1e09-dd27-4282-ba36-41e3a5e84ee0.png)
-## soal 3c
+### soal 3c
 Hasilnya tidak jauh beda, yaitu sebesar 0.0061265, menandakan jika x dan lambda sama, hasil tidak jauh berbeda walaupun ada periode (n = 365) maupun tidak ada periode
 ```r
 #c 
@@ -146,7 +146,7 @@ Hasilnya tidak jauh beda, yaitu sebesar 0.0061265, menandakan jika x dan lambda 
 #menandakan jika x dan lambda sama, hasil tidak
 #jauh berbeda walaupun ada periode (n = 365) maupun tidak ada periode
 ```
-## soal 3d
+### soal 3d
 rataan atau mean distribusi poisson adalah Lambda = 4.5 <br/>
 varians distribusi poisson adalah Lambda = 4.5 
 ```r
@@ -155,9 +155,52 @@ varians distribusi poisson adalah Lambda = 4.5
 #varians distribusi poisson adalah Lambda = 4.5 
 ```
 ## Soal 4<br/>
+### inisialisasi variabel untuk digunakan di dalam 4a, 4b, dan 4c
+```r
+#inisialisasi variabel
+v = 2
+x = 10
+```
+Hasil dari inisialisasi variabel: <br/>
+![variabel no 4](https://user-images.githubusercontent.com/78362238/162622084-f6a0af28-f387-4b0d-afd9-845dca0578dd.jpeg)
+<br/>
+### soal 4a
+Fungsi Probabilitas dari Distribusi Chi-Square dicapai menggunakan `dchisq ()` dengan memasukkan x dan v.
+```r
+#a (fungsi probabilitas distribusi Chi-Square)
+dchisq (v, x)
+hasil = [1] 0.007664155
+```
+### soal 4b
+```r
+#b (histogram random distribution)
+r = 100
+hist (rchisq(r, x),
+      main='Chi-Square Distribution (r=100, x=10)')
+```
+menggunakan fungsi hist untuk membuat tabel histogram dengan:
+- `r` sebagai batas data random (100)
+- `rchisq(r, x)` digunakan untuk membuat deviasi random
+- `main='Chi-Square Distribution (r=100, x=10)'`  untuk menuliskan judul grafik 
+Hasil dari inisialisasi variabel: <br/>
+![p1 histogram Chi Square no 4](https://user-images.githubusercontent.com/78362238/162623106-a247b8a0-9017-459d-8205-04aa37e84f42.png)
+### soal 4c
+rataan atau mean distribusi Chi-Square adalah degree of freedom, atau v = 2
+varian distribusi Chi-Square adalah v * 2 = 2 * 2 = 4
+```r
+#c (rataan dan varian)
+#>Rataan
+rataan = v
+print (rataan)
+#>varian
+2 * v
+#hasil rataan = [1] 2
+#hasil varian = [1] 4
+```
+
 ## Soal 5<br/>
 ## Soal 6<br/>
 
 
 to do:
-perbaiki no 1 tabel histogram
+fix everything
