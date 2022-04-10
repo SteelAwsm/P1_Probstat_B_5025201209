@@ -1,6 +1,6 @@
 # P1_Probstat_B_5025201209<br/>
 ## Soal 1<br/>
-###inisialisasi variabel untuk digunakan di dalam 1a, 1b, 1c, 1d, dan 1e
+### inisialisasi variabel untuk digunakan di dalam 1a, 1b, 1c, 1d, dan 1e
 ```r
 #inisialisasi variabel
 p = 0.20
@@ -55,7 +55,7 @@ Rumus dari:
 - Rataan atau mean dari distribusi geometrik = 1 / p = 1 / 0.2 = 5
 - Varians dari distribusi geometrik = (1 - p) / p^2 =(1 - 0.2) / 0.2^2 = 0.8 / 0.04 = 20 <br/>
 ## Soal 2<br/>
-###inisialisasi variabel untuk digunakan di dalam 2a, 2b, dan 2c
+### inisialisasi variabel untuk digunakan di dalam 2a, 2b, dan 2c
 ```r
 #inisialisasi Variabel
 n = 20
