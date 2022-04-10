@@ -137,6 +137,7 @@ mean(rpois(n, lambda) == 6)
 #hasil = [1] 0.1342466
 ```
 menggunakan fungsi hist untuk membuat tabel histogram dengan:
+- `set.seed(0)` sebagai starting number untuk nomor yang di-generate secara random di `rpois`
 - `i` sebagai distribusi poisson
 - `main`  untuk menuliskan judul grafik
 - `xlab` untuk menuliskan nama di bagian horizontal grafik sebagai "kelahiran 6 bayi akan lahir di rumah sakit" 
