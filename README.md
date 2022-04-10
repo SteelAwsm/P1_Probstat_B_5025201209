@@ -1,6 +1,6 @@
 # P1_Probstat_B_5025201209<br/>
 ## Soal 1<br/>
-### inisialisasi variabel untuk digunakan di dalam 1a, 1b, 1c, 1d, dan 1e
+### inisialisasi variabel untuk digunakan di dalam 1a, 1b, 1d, dan 1e
 ```r
 #inisialisasi variabel
 p = 0.20
@@ -103,6 +103,61 @@ Rumus dari:
 - Varians dari distribusi binomial (n, p) = n * p * q = n * p * (1-p) = 20 * 0.2 * 0.8 = 3.2
 
 ## Soal 3<br/>
+### inisialisasi variabel untuk digunakan di dalam 3a dna 3b
+```r
+#inisialisasi variabel
+lambda = 4.5
+x = 6
+n = 365
+```
+Hasil dari inisialisasi variabel: <br/>
+![variabel no 3](https://user-images.githubusercontent.com/78362238/162618645-9048772b-ca89-410a-a8fc-181f1383ac26.jpeg)
+<br/>
+### Soal 3a
+memasukkan lambda dan x untuk menemukan peluang 6 bayi lahir di hari selanjutnya atau besok
+```r
+#a (peluang 6 bayi lahir)
+dpois(x, lambda)
+#hasil = [1] 0.1281201
+```
+### Soal 3b
+```r
+#b (histogram )
+set.seed(0)
+i = rpois(n, lambda)
+hist(i,
+     main = "kelahiran 6 bayi akan lahir di rumah sakit selama setahun",
+     xlab = "kelahiran 6 bayi akan lahir di rumah sakit")
+mean(rpois(n, lambda) == 6)
+
+#hasil = [1] 0.1342466
+```
+menggunakan fungsi hist untuk membuat tabel histogram dengan:
+- `i` distribusi poisson
+- `main`  untuk menuliskan judul grafik
+- `xlab` untuk menuliskan nama di bagian horizontal grafik sebagai "kelahiran 6 bayi akan lahir di rumah sakit" 
+Hasil grafik: <br/>
+![p1_histogram poisson no 3](https://user-images.githubusercontent.com/78362238/162619414-d7ba1e09-dd27-4282-ba36-41e3a5e84ee0.png)
+##soal 3c
+Hasilnya tidak jauh beda, yaitu sebesar 0.0061265, menandakan jika x dan lambda sama, hasil tidak jauh berbeda walaupun ada periode (n = 365) maupun tidak ada periode
+```r
+#c 
+#hasilnya tidak jauh beda, yaitu sebesar 0.0061265, 
+#menandakan jika x dan lambda sama, hasil tidak
+#jauh berbeda walaupun ada periode (n = 365) maupun tidak ada periode
+```
+##soal 3d
+rataan atau mean distribusi poisson adalah Lambda = 4.5 <br/>
+varians distribusi poisson adalah Lambda = 4.5 
+```r
+#d (rataan dan varian)
+#rataan atau mean distribusi poisson adalah Lambda = 4.5
+#varians distribusi poisson adalah Lambda = 4.5 
+```
 ## Soal 4<br/>
 ## Soal 5<br/>
 ## Soal 6<br/>
+
+
+to do:
+perbaiki no 1 tabel histogram
