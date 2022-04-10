@@ -99,6 +99,8 @@ Hasil grafik: <br/>
 n*p
 #>Varian
 n*p*(1-p)
+#hasil rataan = [1] 4
+#hasil varian = [1] 3.2
 ```
 Rumus dari:
 - Rataan atau mean dari distribusi binomial (n, p) = n * p = 20 * 0.2 = 4
