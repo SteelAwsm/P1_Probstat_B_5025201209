@@ -1,4 +1,9 @@
 # P1_Probstat_B_5025201209<br/>
+
+Hemakesha Ramadhani Heriqbaldi
+5025201209
+Probabilitas dan Statistik B
+
 ## Soal 1<br/>
 ### inisialisasi variabel untuk digunakan di dalam 1a, 1b, 1d, dan 1e
 ```r
