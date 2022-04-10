@@ -90,6 +90,7 @@ Menggunakan fungsi plot, untuk membuat tabel histogram dengan:
 - `ylab` untuk menuliskan nama di bagian vertikal grafik sebagai "probabilitas"
 - `xlab` untuk menuliskan nama di bagian horizontal grafik sebagai "Jumlah Sukses"
 - `lwd=2` untuk menebalkan garis di dalam grafik <br/>
+
 Hasil grafik: <br/>
 ![p1_histogram binomial no 2](https://user-images.githubusercontent.com/78362238/162609759-c9708c9c-5b5f-45c1-839f-1f42d4253c66.png)
 ### Soal 2c
@@ -140,7 +141,8 @@ menggunakan fungsi hist untuk membuat tabel histogram dengan:
 - `set.seed(0)` sebagai starting number untuk nomor yang di-generate secara random di `rpois`
 - `i` sebagai distribusi poisson
 - `main`  untuk menuliskan judul grafik
-- `xlab` untuk menuliskan nama di bagian horizontal grafik sebagai "kelahiran 6 bayi akan lahir di rumah sakit" 
+- `xlab` untuk menuliskan nama di bagian horizontal grafik sebagai "kelahiran 6 bayi akan lahir di rumah sakit" <br/>
+
 Hasil grafik: <br/>
 ![p1_histogram poisson no 3](https://user-images.githubusercontent.com/78362238/162619414-d7ba1e09-dd27-4282-ba36-41e3a5e84ee0.png)
 ### soal 3c
@@ -192,7 +194,8 @@ menggunakan fungsi hist untuk membuat tabel histogram dengan:
 - `r` sebagai batas data random (100)
 - `rchisq(r, x)` digunakan untuk membuat deviasi random
 - `main='Chi-Square Distribution (r=100, x=10)'`  untuk menuliskan judul grafik <br/>
-Hasil dari inisialisasi variabel: <br/>
+
+Hasil grafik: <br/>
 ![p1 histogram Chi Square no 4](https://user-images.githubusercontent.com/78362238/162623106-a247b8a0-9017-459d-8205-04aa37e84f42.png)
 ### soal 4c
 ```r
