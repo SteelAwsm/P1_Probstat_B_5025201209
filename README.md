@@ -107,7 +107,7 @@ Rumus dari:
 - Varians dari distribusi binomial (n, p) = n * p * q = n * p * (1-p) = 20 * 0.2 * 0.8 = 3.2
 
 ## Soal 3<br/>
-### inisialisasi variabel untuk digunakan di dalam 3a dna 3b
+### inisialisasi variabel untuk digunakan di dalam 3a, 3b, dan 3d
 ```r
 #inisialisasi variabel
 lambda = 4.5
@@ -151,13 +151,18 @@ Hasilnya tidak jauh beda, yaitu sebesar 0.0061265, menandakan jika x dan lambda 
 #jauh berbeda walaupun ada periode (n = 365) maupun tidak ada periode
 ```
 ### soal 3d
-rataan atau mean distribusi poisson adalah Lambda = 4.5 <br/>
-varians distribusi poisson adalah Lambda = 4.5 
 ```r
 #d (rataan dan varian)
-#rataan atau mean distribusi poisson adalah Lambda = 4.5
-#varians distribusi poisson adalah Lambda = 4.5 
+#>rataan 
+lambda
+#>varians 
+lambda 
+#hasil rataan = [1] 4.5
+#hasil varian = [1] 4.5
 ```
+Rumus dari:
+- rataan atau mean distribusi poisson adalah Lambda = 4.5 <br/>
+- varians distribusi poisson adalah Lambda = 4.5 
 ## Soal 4<br/>
 ### inisialisasi variabel untuk digunakan di dalam 4a, 4b, dan 4c
 ```r
@@ -207,6 +212,3 @@ Rumus dari:
 ## Soal 5<br/>
 ## Soal 6<br/>
 
-
-to do:
-fix everything
